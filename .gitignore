@@ -1,0 +1,143 @@
+# Dependencies
+node_modules/
+/dist
+package-lock.json
+yarn.lock
+
+# Build output
+/build
+/.nuxt
+/.next
+/.vuepress/dist
+
+# IDE & Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Cache directories
+.npm
+.eslintcache
+.stylelintcache
+.cache
+.parcel-cache
+
+# Test coverage
+/coverage
+/.nyc_output
+
+# Debug files
+debug.log
+debug.json
+
+# Backend specific
+__pycache__/
+*.py[cod]
+*.so
+venv/
+env/
+*.sqlite3
+*.db
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.temp
+.temp/
+.tmp/
+
+# Generated files
+/generated
+*.generated.*
+auto-imports.d.ts
+components.d.ts
+
+# Optional: Large media files (if you have any)
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.avi
+*.flv
+*.mkv
+
+# Optional: Sensitive data files
+**/config/secrets.*
+**/credentials.*
+**/private.*
+
+# Environment Variables and Secrets
+.env
+.env.development
+.env.production
+.env.local
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
