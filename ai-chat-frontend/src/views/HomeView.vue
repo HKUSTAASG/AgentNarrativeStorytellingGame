@@ -2,9 +2,12 @@
   <div class="home">
     <div class="story-container">
       <!-- 语言切换按钮移到 story-container 内部顶部 -->
+      <div class="title-container">
+        <h1 class="title">Sharp School: AI Agent Narrative Storytelling Game</h1>
+      </div>
       <div class="header-section">
         <button class="language-toggle" @click="toggleLanguage">
-          {{ currentLanguage === 'zh' ? 'EN' : '中文' }}
+          {{ currentLanguage === 'zh' ? 'Language: English' : 'Language: 中文' }}
         </button>
       </div>
 
@@ -71,7 +74,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const currentLanguage = ref('zh')
+const currentLanguage = ref('en')
 
 const translations = {
   zh: {
@@ -134,6 +137,24 @@ const toggleLanguage = () => {
 </script>
 
 <style scoped>
+.title-container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  /* margin-bottom: 20px; */
+  color: #00ffff;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}
+
 .home {
   min-height: 100vh;
   background: linear-gradient(135deg, #0a0a2e 0%, #1a1a3e 100%);
@@ -244,7 +265,7 @@ h2::after {
 }
 
 .story-content {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
   color: #cccccc;
 }
@@ -331,7 +352,7 @@ h2::after {
 /* 添加语言切换按钮样式 */
 .header-section {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin-bottom: 20px;
 }
 

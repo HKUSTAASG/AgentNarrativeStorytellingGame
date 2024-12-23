@@ -14,7 +14,7 @@ An interactive AI chat application built with Vue.js and Django, featuring multi
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/MPX0222/AgentNarrativeStorytellingGame.git
+git clone https://github.com/HKUSTAASG/AgentNarrativeStorytellingGame.git
 cd AgentNarrativeStorytellingGame
 ```
 
