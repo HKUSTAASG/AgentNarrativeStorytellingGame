@@ -366,7 +366,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    font-size: 16px;
     color: white;
     transition: all 0.3s ease;
   }
@@ -414,7 +414,7 @@
 
   .message-text {
     line-height: 1.5;
-    font-size: 24px;
+    font-size: 16px;
     white-space: pre-wrap;
     word-break: break-word;
   }
@@ -436,10 +436,10 @@
 
   input {
     flex: 1;
-    padding: 20px 28px;
+    padding: 10px 18px;
     border: 1px solid #e6e6e6;
     border-radius: 4px;
-    font-size: 24px;
+    font-size: 16px;
     transition: all 0.3s ease;
   }
 
@@ -460,7 +460,7 @@
     color: white;
     border: none;
     border-radius: 6px;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;

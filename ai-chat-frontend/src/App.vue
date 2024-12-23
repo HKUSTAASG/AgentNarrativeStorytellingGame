@@ -3,8 +3,8 @@
     <header class="header">
       <div class="header-container">
         <div class="logo-section">
-          <img src="@/assets/logo1.jpg" alt="Logo" class="logo">
-          <h1 class="site-title">44-3 Meta Campus</h1>
+          <img src="@/assets/GroupLogo.png" alt="Logo" class="logo">
+          <h1 class="site-title">HKUST(GZ) AASG</h1>
         </div>
         <nav class="navigation">
           <router-link to="/" class="nav-link">
@@ -13,20 +13,24 @@
           </router-link>
           <router-link to="/about" class="nav-link">
             <i class="fa fa-comments"></i>
-            Chat
+            AI Assitant
           </router-link>
-          <router-link to="/chart" class="nav-link">
+          <!-- <router-link to="/chart" class="nav-link">
             <i class="fa fa-database"></i>
             Data Visualization
           </router-link>
           <router-link to="/game" class="nav-link">
             <i class="fa fa-gamepad"></i>
             Game
-          </router-link>
-          <router-link to="/metaverse" class="nav-link">
+          </router-link> -->
+          <a href="http://10.4.152.152:5173/" class="nav-link">
+            <i class="fa fa-globe"></i>
+            StorytellingAgent
+          </a>
+          <!-- <router-link to="/metaverse" class="nav-link">
             <i class="fa fa-globe"></i>
             Storytelling
-          </router-link>
+          </router-link> -->
           <router-link to="/multi-ai" class="nav-link">
             <i class="fa fa-star"></i>
             Multi-AI Chat
